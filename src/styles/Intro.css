@@ -1,0 +1,16 @@
+
+.intro {
+  display: flex;
+  align-items: center;
+  background: #f3ed5c;
+  height: calc(100vh - 60px);
+}
+
+.intro img {
+  margin-left: 2em;
+}
+
+.intro p {
+  font-size: 1.5em;
+  margin: 1em 3em 1em 1em;
+}

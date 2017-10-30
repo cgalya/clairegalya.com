@@ -1,0 +1,9 @@
+.work {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.rowOne, .rowTwo {
+  display: flex;
+}

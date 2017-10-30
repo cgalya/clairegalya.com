@@ -1,0 +1,10 @@
+.thumbnail {
+  border: 1px #000 dashed;
+  padding: 3em;
+  margin: 1em;
+  border-radius: 10px;
+}
+
+.thumbnail p {
+  margin: 0.5em 0 0 0;
+}
