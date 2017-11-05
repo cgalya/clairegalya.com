@@ -1,14 +1,13 @@
 import React from "react";
 import "../styles/Intro.css";
-import Jim from '../images/Jim.png';
 
 const Intro = () => (
   <div className="intro">
-    <img src={Jim} alt="Jim the Cat"/>
     <div>
-      <p>Hi! My name is Claire. I'm a web developer who likes to make things.</p>
-      <p>Take a look around and see some things that I've made.</p>
-      <p>(P.S. That's my cat, Jim.  He likes to sit in strange places.)</p>
+      <div className="firstLine"><p className="one">Hi!</p> <p className="one2">My</p> <p className="one3">name</p> <p className="one4">is</p>
+        <img src="../images/Letterc.png" alt=""/><p className="one5">Claire.</p></div>
+      <div className="secondLine"><p className="two">I'm</p> <p className="two2">a</p> <p className="two3">web</p> <p className="two4">developer</p> <p className="two5">who</p> <p className="two6">likes</p> <p className="two7">to</p> <p className="two8">make</p> <p className="two9">things.</p></div>
+      <p className="three">Take a look around and see some of my work.</p>
     </div>
   </div>
 );
