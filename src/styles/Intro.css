@@ -2,16 +2,30 @@
 .intro {
   display: flex;
   align-items: center;
-  justify-content: center;
+  /*justify-content: center;*/
   height: calc(100vh - 60px);
+  flex-direction: column;
 }
 
-.firstLine, .secondLine {
+.firstLine, .secondLine, .name {
   display: flex;
+  align-items: flex-end;
+}
+
+.firstLine {
+  font-size: 2em;
+  margin-top: 0.5em;
+}
+
+.secondLine {
+  font-size: 1.5em;
+}
+
+.thirdLine {
+  font-size: 1.5em;
 }
 
 .intro p {
-  font-size: 3em;
   margin:0 0.4em 0 0;
 }
 
@@ -33,6 +47,7 @@
 
 .one5 {
   animation: fadeIn 1.9s, slideIn 4s 1.9s cubic-bezier(0.23, 1, 0.32, 1);
+  font-size: 8em;
 }
 
 .secondLine {
@@ -71,7 +86,7 @@
   /*animation: fadeIn 4.6s, slideIn 4s 4.6s cubic-bezier(0.175, 0.885, 0.32, 1.01);*/
 /*}*/
 
-.three {
+.thirdLine {
   animation: fadeIn 5s, slideIn 4s 5s cubic-bezier(0.23, 1, 0.32, 1);
 }
 
