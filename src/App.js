@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import Intro from "./components/Intro";
 import Work from "./components/Work";
 import About from "./components/About";
+import Footer from "./components/Footer"
 
 
 class App extends Component {

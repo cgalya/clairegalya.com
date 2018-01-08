@@ -2,7 +2,7 @@
 .intro {
   display: flex;
   align-items: center;
-  /*justify-content: center;*/
+  margin-top: 100px;
   height: calc(100vh - 60px);
   flex-direction: column;
 }
@@ -14,19 +14,24 @@
 
 .firstLine {
   font-size: 2em;
-  margin-top: 0.5em;
+  margin-bottom: 20px;
 }
 
 .secondLine {
   font-size: 1.5em;
+  margin-bottom: 20px;
 }
 
 .thirdLine {
   font-size: 1.5em;
 }
 
+.name {
+  margin-bottom: 40px;
+}
+
 .intro p {
-  margin:0 0.4em 0 0;
+  margin: 0 0.4em 0 0;
 }
 
 .one {
@@ -55,35 +60,35 @@
 }
 
 /*.two2 {*/
-  /*animation: fadeIn 3.2s, slideIn 4s 3.2s cubic-bezier(0.175, 0.885, 0.32, 1.01);*/
+/*animation: fadeIn 3.2s, slideIn 4s 3.2s cubic-bezier(0.175, 0.885, 0.32, 1.01);*/
 /*}*/
 
 /*.two3 {*/
-  /*animation: fadeIn 3.4s, slideIn 4s 3.4s cubic-bezier(0.175, 0.885, 0.32, 1.01);*/
+/*animation: fadeIn 3.4s, slideIn 4s 3.4s cubic-bezier(0.175, 0.885, 0.32, 1.01);*/
 /*}*/
 
 /*.two4 {*/
-  /*animation: fadeIn 3.6s, slideIn 4s 3.6s cubic-bezier(0.175, 0.885, 0.32, 1.01);*/
+/*animation: fadeIn 3.6s, slideIn 4s 3.6s cubic-bezier(0.175, 0.885, 0.32, 1.01);*/
 /*}*/
 
 /*.two5 {*/
-  /*animation: fadeIn 3.8s, slideIn 4s 3.8s cubic-bezier(0.175, 0.885, 0.32, 1.01);*/
+/*animation: fadeIn 3.8s, slideIn 4s 3.8s cubic-bezier(0.175, 0.885, 0.32, 1.01);*/
 /*}*/
 
 /*.two6 {*/
-  /*animation: fadeIn 4s, slideIn 4s 4s cubic-bezier(0.175, 0.885, 0.32, 1.01);*/
+/*animation: fadeIn 4s, slideIn 4s 4s cubic-bezier(0.175, 0.885, 0.32, 1.01);*/
 /*}*/
 
 /*.two7 {*/
-  /*animation: fadeIn 4.2s, slideIn 4s 4.2s cubic-bezier(0.175, 0.885, 0.32, 1.01);*/
+/*animation: fadeIn 4.2s, slideIn 4s 4.2s cubic-bezier(0.175, 0.885, 0.32, 1.01);*/
 /*}*/
 
 /*.two8 {*/
-  /*animation: fadeIn 4.4s, slideIn 4s 4.4s cubic-bezier(0.175, 0.885, 0.32, 1.01);*/
+/*animation: fadeIn 4.4s, slideIn 4s 4.4s cubic-bezier(0.175, 0.885, 0.32, 1.01);*/
 /*}*/
 
 /*.two9 {*/
-  /*animation: fadeIn 4.6s, slideIn 4s 4.6s cubic-bezier(0.175, 0.885, 0.32, 1.01);*/
+/*animation: fadeIn 4.6s, slideIn 4s 4.6s cubic-bezier(0.175, 0.885, 0.32, 1.01);*/
 /*}*/
 
 .thirdLine {
